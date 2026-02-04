@@ -1,0 +1,5 @@
+method,train_auc_score,leaderboard_auc,submission
+Boxplot,0.7760119772711086,0.78701,anomaly_outputs\submission_anom_IQR_Boxplot.csv
+Z-score,0.7295384082149634,0.72651,anomaly_outputs\submission_anom_ZScore_MaxAbs.csv
+OneClassSVM,0.7227102844810668,0.72466,anomaly_outputs\submission_anom_OneClassSVM.csv
+IsolationForest,0.7711154108391264,0.78063,anomaly_outputs\submission_anom_IsolationForest.csv

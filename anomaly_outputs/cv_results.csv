@@ -1,0 +1,5 @@
+model,n_folds,cv_auc_mean,cv_auc_std,params,leaderboard_auc
+LightGBM,7,0.9726316604481718,0.0016859233790629037,"{""n_estimators"": 2000, ""learning_rate"": 0.03, ""num_leaves"": 127, ""subsample"": 0.8, ""colsample_bytree"": 0.8, ""reg_alpha"": 0.0, ""reg_lambda"": 0.5, ""random_state"": 42, ""n_jobs"": 20}",0.90755
+CatBoost,7,0.9633295157373077,0.002027570483136128,"{""iterations"": 1500, ""learning_rate"": 0.05, ""depth"": 8, ""loss_function"": ""Logloss"", ""eval_metric"": ""AUC"", ""random_seed"": 42, ""l2_leaf_reg"": 3.0, ""subsample"": 0.8, ""rsm"": 0.8, ""verbose"": false, ""thread_count"": 20, ""auto_class_weights"": ""Balanced""}",0.90166
+RandomForest,7,0.9344216916682077,0.0016584043479750885,"{""n_estimators"": 800, ""max_depth"": null, ""min_samples_split"": 2, ""min_samples_leaf"": 1, ""random_state"": 42, ""n_jobs"": 20}",0.89142
+LogReg (Ordinal),7,0.7220048236716774,0.003935315927942901,"{""C"": 1.0, ""solver"": ""saga"", ""max_iter"": 2000, ""n_jobs"": 20, ""random_state"": 42}",0.73453
